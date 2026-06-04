@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Portfolio_Punchung Chaiyota",
+  description: "Punchung Chaiyota's Portfolio",
+
+  openGraph: {
+    title: "Portfolio_Punchung Chaiyota",
+    description: "Punchung Chaiyota's Portfolio",
+    images: [
+      {
+        url: "/PORTFOLIO.png",
+        width: 1200,
+        height: 630,
+        alt: "Punchung Chaiyota Portfolio",
+      },
+    ],
+  },
 };
+
 
 export default function RootLayout({
   children,
