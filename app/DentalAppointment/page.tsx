@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 // ================= DATA CONFIGURATION =================
-const GitHubLink = "https://github.com";
+const GitHubLink = "https://github.com/punchung/Appdentist";
 
 const challenges = [
   {

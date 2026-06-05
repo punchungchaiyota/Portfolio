@@ -23,7 +23,7 @@ export default function Footer() {
           </h2>
 
           <p className="text-sm text-white/40 mt-2">
-            พันชั่ง ไชยโยธา
+            Portfolio Website Presented by Punchung Chaiyota.
           </p>
         </div>
 

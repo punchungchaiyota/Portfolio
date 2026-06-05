@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Project from "@/components/Project";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
+import Projects from "@/components/Project";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Project />
+      <section id="project">
+        <Projects />
+      </section>
       <Footer />
       <ScrollToTop />
 

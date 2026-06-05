@@ -75,19 +75,23 @@ export default function Navbar() {
 
         {/* Resume Button */}
         <motion.a
-          download
-          whileHover={{ scale: 1.04 }}
-          whileTap={{ scale: 0.96 }}
-          className="group relative inline-flex items-center gap-2
-          overflow-hidden rounded-full
-          border border-white/10
-          bg-white/[0.05]
-          px-4 py-2
-          text-[12px] font-medium text-white/90
-          transition-all duration-300
-          hover:border-purple-500/40
-          hover:bg-purple-500/10"
-        >
+  href="https://drive.google.com/file/d/12tZw9oTqSwvWbt_ArOV0WUlta9NkuS_G/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.04 }}
+  whileTap={{ scale: 0.96 }}
+  className="
+    group relative inline-flex items-center gap-2
+    overflow-hidden rounded-full
+    border border-white/10
+    bg-white/[0.05]
+    px-4 py-2
+    text-[12px] font-medium text-white/90
+    transition-all duration-300
+    hover:border-purple-500/40
+    hover:bg-purple-500/10
+  "
+>
           {/* Glow */}
           <div
             className="absolute inset-0 opacity-0

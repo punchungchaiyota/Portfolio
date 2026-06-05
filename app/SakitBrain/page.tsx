@@ -48,7 +48,7 @@ export default function ProjectPetPage() {
       {/* Grid Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.012)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.012)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
 
-      <div className="relative z-10 mx-auto max-w-6xl px-6 py-20">
+      <div className="relative z-10 mx-auto max-w-6xl px-6 pt-32 pb-20">
         <Navbar />
 
         {/* Back Button */}

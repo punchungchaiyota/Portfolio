@@ -35,26 +35,39 @@ export default function ScrollToTop() {
           transition={{ duration: 0.25 }}
           onClick={scrollToTop}
           className="
-            fixed
-            bottom-8
-            right-8
-            z-50
-            flex
-            h-12
-            w-12
-            items-center
-            justify-center
-            rounded-full
-            border
-            border-white/10
-            bg-white/10
-            backdrop-blur-xl
-            text-white
-            shadow-lg
-            transition-all
-            hover:scale-110
-            hover:bg-purple-500
-          "
+  fixed
+  bottom-6 md:bottom-8
+  right-6 md:right-8
+  z-50
+
+  flex
+  h-12
+  w-12
+  items-center
+  justify-center
+
+  rounded-full
+
+  border border-purple-400/40
+
+  bg-gradient-to-br
+  from-purple-500
+  via-fuchsia-500
+  to-pink-500
+
+  text-white
+
+  shadow-[0_10px_30px_rgba(168,85,247,0.45)]
+
+  backdrop-blur-xl
+
+  transition-all duration-300
+
+  hover:scale-110
+  hover:shadow-[0_15px_40px_rgba(217,70,239,0.55)]
+
+  active:scale-95
+"
         >
           <ChevronUp size={20} />
         </motion.button>
