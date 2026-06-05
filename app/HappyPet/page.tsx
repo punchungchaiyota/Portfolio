@@ -306,7 +306,7 @@ export default function ProjectPetPage() {
 
           <div className="overflow-hidden rounded-[24px] border border-white/10 bg-[#07040d]">
             <Image
-              src="/HappyPetall.png"
+              src="/HappyPet-all.png"
               alt="HappyPet Club Complete User Experience Map & Design Presentation"
               width={1900}
               height={1200}
